@@ -1,0 +1,35 @@
+.counter_app {
+  display:flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+.counter{
+  display:flex;
+}
+.counter .increment{
+  background-color: green;
+}
+.counter .decrement{
+  background-color: red;
+}
+
+.counter .increment,.counter .decrement{
+  border:none;
+  height:30px;
+  margin:0px 20px;
+  border-radius:10px;
+  color:white;
+  cursor: pointer;
+}
+
+.counter .increment:hover{
+  background-color: rgb(2,50,2);
+}
+.counter .decrement:hover{
+  background-color: rgb(102,6,6);
+}
+
+.counter span{
+  font-size: 25px;
+}
